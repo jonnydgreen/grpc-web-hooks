@@ -1,0 +1,38 @@
+{
+  "name": "@projectjudge/react-grpc-web-hooks",
+  "version": "0.1.0",
+  "description": "React GRPC Web hooks library",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p . -d",
+    "build-watch": "npm run build -- --watch"
+  },
+  "author": "Jonny Green",
+  "license": "MIT",
+  "homepage": "https://github.com/projectjudge/grpc-web-hooks#grpc-web-hooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectjudge/grpc-web-hooks.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "@improbable-eng/grpc-web": "^0.11.0",
+    "google-protobuf": "^3.10.0-rc.1"
+  },
+  "devDependencies": {
+    "@improbable-eng/grpc-web": "^0.11.0",
+    "@types/google-protobuf": "^3.7.1",
+    "@types/node": "^12.7.8",
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.0",
+    "google-protobuf": "^3.10.0-rc.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "typescript": "^3.6.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "target": "es5",
+    "lib": ["dom", "es2015", "es2018.promise"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "lib",
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
